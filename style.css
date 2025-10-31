@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-weight can be anything from 200 to 1000 */
+html {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: rgb(34, 34, 34);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.tierlist {
+    margin: 2rem auto;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.tierlist table,
+.tierlist th,
+.tierlist td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.header {
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.role {
+    width: fit-content;
+}
+
+.tier {
+    font-weight: 800;
+    width: fit-content;
+    padding: 0.7rem;
+}
+
+.agents {
+    padding: 1rem;
+    color: rgb(209, 209, 209);
+    line-height: 1.5rem;
+}
+
+.t0 {
+    background-color: #ef5350;
+}
+
+.t05 {
+    background-color: #ec6563;
+}
+
+.t1 {
+    background-color: #ffa967;
+}
+
+.t15 {
+    background-color: #ffbe7c;
+}
+
+.t2 {
+    background-color: #fed4a0;
+}
+
+.t3 {
+    background-color: #bfff7f;
+}
+
+.t4 {
+    background-color: #9df89d;
+}
+
+.dps {
+    color: #ed343e;
+}
+
+.subdps {
+    color: #bd65e6;
+}
+
+.support {
+    color: #7cde97;
+}
+
+.stun {
+    color: #db6a00;
+}
+
+.color2 {
+    background-color: rgb(29, 29, 29);
+}
+
+.partner-tag {
+    color: #ff7f7f;
+}
+
+.hp-tag {
+    color: #72de97;
+}
+
+.aftershock-tag {
+    color: #fffd7f;
+}
+
+.expert-tag {
+    color: #ffa938;
+}
+
+.ult-tag {
+    color: #ffd86d;
+}
+
+.upward {
+    display: inline-block;
+    transform: rotate(-90deg);
+}

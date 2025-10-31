@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>ZZZ Agent tier list</title>
+</head>
+
+<body>
+    <h1>ZZZ Agent tier list</h1>
+    <div class="tierlist">
+        <table>
+            <tr class="header">
+                <th class="color2"></th>
+                <th class="role dps">Primary DPS</th>
+                <th class="role subdps color2">Secondary DPS</th>
+                <th class="role support">Support</th>
+                <th class="role stun color2">Stun</th>
+            </tr>
+
+            <tr>
+                <td class="t0 tier">T0</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Miyabi (Anomaly, Quickswap)<br>
+                    Yixuan (Sheer, Quickswap, HP)<br>
+                    Alice (Anomaly, Quickswap)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS -->
+                    Vivian (Anomaly)<br>
+                    Orphie (Partner, Aftershock)<br>
+                </td>
+
+                <td class="agents"> <!-- Support -->
+                    Astra (HP)<br>
+                    Yuzuha (Anomaly, Aftershock)<br>
+                    Lucia (Sheer, HP, Aftershock)<br>
+                    Ju Fufu (Ult/Chain)
+                </td>
+
+                <td class="agents color2"> <!-- Stun -->
+                    Lighter (Buff)<br>
+                    Trigger (Aftershock)<br>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="t05 tier">T0.5</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Evelyn (EXPERT)<br>
+                    SoldierAnby (Aftershock, Partner,<br> EXPERT)<br>
+                    Yanagi (Anomaly)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS -->
+                    Yanagi (Anomaly)
+                </td>
+
+                <td class="agents"> <!-- Support -->
+                    Nicole (Quickswap, EXPERT)<br>
+                    Soukaku (<span class="partner-tag">Partner (Miyabi)</span>)
+                </td>
+
+                <td class="agents color2"> <!-- Stun -->
+                    Pulchra (Aftershock)<br>
+                    Ju Fufu (Aftershock)
+                </td>
+            </tr>
+            <tr>
+                <td class="t1 tier">T1</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Manato (Sheer, HP)<br>
+                    Hugo (Partner)<br>
+                    Jane (Anomaly)<br>
+                    Piper (Anomaly)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS -->
+                    Jane (Anomaly, <span class="partner-tag">Partner (Alice)</span>)<br>
+                    Piper (Anomaly, <span class="partner-tag">Partner (Alice)</span>)<br>
+                    Burnice (Anomaly)
+                </td>
+
+                <td class="agents"> <!-- Support -->
+                    Pan Yinhu (HP, Sheer)
+                </td>
+
+                <td class="agents color2"> <!-- Stun -->
+                    Lycaon<br>
+                    Qingyi<br>
+                </td>
+            </tr>
+            <tr>
+                <td class="t15 tier">T1.5</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Ellen<br>
+                    Zhu Yuan<br>
+                    Harumasa (EXPERT)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS --> </td>
+
+                <td class="agents"> <!-- Support -->
+                    Rina<br>
+                    Lucy<br>
+                    Caesar (Shield)
+                </td>
+
+                <td class="agents color2"> <!-- Stun --> </td>
+            </tr>
+            <tr>
+                <td class="t2 tier">T2</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Soldier 11<br>
+                    Corin (Partner)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS --> </td>
+
+                <td class="agents"> <!-- Support --> </td>
+
+                <td class="agents color2"> <!-- Stun -->
+                    Koleda
+                </td>
+            </tr>
+            <tr>
+                <td class="t3 tier">T3</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Anton (<span class="partner-tag">Partner (Astra)</span>)<br>
+                    Billy<br>
+                    Nekomata
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS -->
+                    Grace (Anomaly)
+                </td>
+
+                <td class="agents"> <!-- Support -->
+                    Seth (Anomaly, Shield)
+                </td>
+
+                <td class="agents color2"> <!-- Stun --> </td>
+            </tr>
+            <tr>
+                <td class="t4 tier">T4</td>
+
+                <td class="agents"> <!-- Primary DPS -->
+                    Ben (Shield)
+                </td>
+
+                <td class="agents color2"> <!-- Secondary DPS --> </td>
+
+                <td class="agents"> <!-- Support --> </td>
+                
+                <td class="agents color2"> <!-- Stun -->
+                    Anby
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        // JavaScript can be added here if needed in the future
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bPartner\b/g,
+            '<span class="partner-tag">Partner</span>',
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bHP\b/g,
+                '<span class="hp-tag">HP</span>'
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bAftershock\b/g,
+                '<span class="aftershock-tag">Aftershock</span>'
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bEXPERT\b/g,
+                '<span class="expert-tag">EXPERT<span class="upward">»</span></span>'
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bUlt\/Chain\b/g,
+                '<span class="ult-tag">Ult/Chain</span>'
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bBuff\b/g,
+                '<span class="hp-tag">Buff</span>'
+        );
+        document.body.innerHTML = document.body.innerHTML.replace(
+            /\bShield\b/g,
+                '<span class="hp-tag">Shield</span>'
+        );
+    </script>
+</body>
+</html>
