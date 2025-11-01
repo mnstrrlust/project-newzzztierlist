@@ -1,3 +1,5 @@
+Spreadsheet for the placements: https://docs.google.com/spreadsheets/d/1zulNYi4aizj1YUfWObWtmrN5-Swzw2SJ6rsHw8YuF5A/edit?usp=sharing
+
 This is an "agent efficiency" tierlist, based on prydwen.gg, following (essentially) the same criteria, which you can find here:
 
 https://www.prydwen.gg/zenless/tier-list
