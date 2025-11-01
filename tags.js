@@ -1,6 +1,6 @@
 document.body.innerHTML = document.body.innerHTML.replace(
     /\bPartner\b/g,
-    '<span class="partner-tag">Partner</span>',
+    '<span class="partner-tag">Partner</span>'
 );
 document.body.innerHTML = document.body.innerHTML.replace(
     /\bHP\b/g,

@@ -25,7 +25,7 @@ h1 {
 }
 
 .tierlist {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 1.25rem auto;
     background: #000000;
     /* grid lines color */
@@ -64,21 +64,10 @@ h1 {
     text-transform: none;
 }
 
-.tierlist .role.dps {
-    color: #ed343e;
-}
-
-.tierlist .role.subdps {
-    color: #bd65e6;
-}
-
-.tierlist .role.support {
-    color: #7cde97;
-}
-
-.tierlist .role.stun {
-    color: #db6a00;
-}
+.tierlist .role.dps { color: #ed343e; }
+.tierlist .role.subdps { color: #bd65e6; }
+.tierlist .role.support { color: #7cde97; }
+.tierlist .role.stun { color: #db6a00; }
 
 .tierlist .tier.t0,
 .tierlist .tier.t05,
@@ -111,21 +100,10 @@ h1 {
     text-align: center;
 }
 
-.partner-tag {
-    color: #ff7f7f;
-}
-
-.hp-tag {
-    color: #72de97;
-}
-
-.aftershock-tag {
-    color: #fffd7f;
-}
-
-.expert-tag {
-    color: #ffa938;
-}
+.partner-tag { color: #ff7f7f; }
+.hp-tag { color: #72de97; }
+.aftershock-tag { color: #fffd7f; }
+.expert-tag { color: #ffa938; }
 
 /* upwards arrow symbol for EXPERT tag */
 .upward {
@@ -141,6 +119,6 @@ h1 {
 .agent img {
     display: block;
     margin: 0 auto 4px auto;
-    width: 64px;
-    height: 64px;
+    width: 96px;
+    height: auto;
 }
