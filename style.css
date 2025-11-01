@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* font-weight can be anything from 200 to 1000 */
@@ -25,88 +25,90 @@ h1 {
 }
 
 .tierlist {
-    margin: 2rem auto;
-    width: fit-content;
-    padding: 1rem;
+    max-width: 1100px;
+    margin: 1.25rem auto;
+    background: #000000;
+    /* grid lines color */
+    color: #ffffff;
+    padding: 1px;
+    /* outer grid line */
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-.tierlist table,
-.tierlist th,
-.tierlist td {
-    border: 2px solid black;
-    border-collapse: collapse;
+.tierlist.tierlist-grid .tier-row {
+    display: grid;
+    grid-template-columns: 92px repeat(4, minmax(180px, 1fr));
+    gap: 1px;
+    /* single-pixel separators */
+    border: #000000 1px solid;
+    /* outer grid line */
+}
+
+.tierlist .tier-cell {
+    background: rgb(32, 32, 32);
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    /* inner grid lines */
+}
+
+.tierlist .color2 {
+    background: rgb(37, 37, 37);
+    /* alternating column tint */
+}
+
+.tierlist .tier-header .tier-cell {
+    font-weight: 700;
     text-align: center;
+    text-transform: none;
 }
 
-.header {
-    color: white;
-    font-weight: 600;
-    padding: 0.5rem;
-    height: 3rem;
-}
-
-.role {
-    width: fit-content;
-}
-
-.tier {
-    font-weight: 800;
-    width: fit-content;
-    padding: 0.7rem;
-}
-
-.agents {
-    padding: 1rem;
-    color: rgb(209, 209, 209);
-    line-height: 1.5rem;
-}
-
-.t0 {
-    background-color: #ef5350;
-}
-
-.t05 {
-    background-color: #ec6563;
-}
-
-.t1 {
-    background-color: #ffa967;
-}
-
-.t15 {
-    background-color: #ffbe7c;
-}
-
-.t2 {
-    background-color: #fed4a0;
-}
-
-.t3 {
-    background-color: #bfff7f;
-}
-
-.t4 {
-    background-color: #9df89d;
-}
-
-.dps {
+.tierlist .role.dps {
     color: #ed343e;
 }
 
-.subdps {
+.tierlist .role.subdps {
     color: #bd65e6;
 }
 
-.support {
+.tierlist .role.support {
     color: #7cde97;
 }
 
-.stun {
+.tierlist .role.stun {
     color: #db6a00;
 }
 
-.color2 {
-    background-color: rgb(29, 29, 29);
+.tierlist .tier.t0,
+.tierlist .tier.t05,
+.tierlist .tier.t1,
+.tierlist .tier.t15,
+.tierlist .tier.t2,
+.tierlist .tier.t3,
+.tierlist .tier.t4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.tierlist .tier.t0 { background: #ef5350; } /* SS+ */
+.tierlist .tier.t05 { background: #ec6563; } /* SS */
+.tierlist .tier.t1 { background: #ffa967; } /* S+ */
+.tierlist .tier.t15 { background: #ffbe7c; } /* S */
+.tierlist .tier.t2 { background: #fed4a0; } /* A */
+.tierlist .tier.t3 { background: #bfff7f; } /* B */
+.tierlist .tier.t4 { background: #9df89d; } /* C */
+
+/* Agent cells */
+.tierlist .agents {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 .partner-tag {
@@ -125,11 +127,20 @@ h1 {
     color: #ffa938;
 }
 
-.ult-tag {
-    color: #ffd86d;
-}
-
+/* upwards arrow symbol for EXPERT tag */
 .upward {
     display: inline-block;
     transform: rotate(-90deg);
+}
+
+.agent {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.agent img {
+    display: block;
+    margin: 0 auto 4px auto;
+    width: 64px;
+    height: 64px;
 }
