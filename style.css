@@ -75,7 +75,8 @@ h1 {
 .tierlist .tier.t15,
 .tierlist .tier.t2,
 .tierlist .tier.t3,
-.tierlist .tier.t4 {
+.tierlist .tier.t4,
+.tierlist .tier.t5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,6 +93,7 @@ h1 {
 .tierlist .tier.t2 { background: #fed4a0; } /* A */
 .tierlist .tier.t3 { background: #bfff7f; } /* B */
 .tierlist .tier.t4 { background: #9df89d; } /* C */
+.tierlist .tier.t5 { background: #76f8f8; } /* F */
 
 /* Agent cells */
 .tierlist .agents {
