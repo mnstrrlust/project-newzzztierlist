@@ -124,3 +124,13 @@ h1 {
     width: 96px;
     height: auto;
 }
+
+.agent img.s-rank {
+    background: linear-gradient(180deg, rgb(187, 159, 1), rgb(255, 222, 36));
+    /* border: #000000b9 2px solid; */
+}
+
+.agent img.a-rank {
+    background: linear-gradient(0deg, rgba(183, 0, 255, 0.5), rgba(183, 0, 255, 0.4));
+    /* border: #000000b9 2px solid; */
+}
