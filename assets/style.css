@@ -127,10 +127,29 @@ h1 {
 
 .agent img.s-rank {
     background: linear-gradient(180deg, rgb(187, 159, 1), rgb(255, 222, 36));
+    border-radius: 8px;
     /* border: #000000b9 2px solid; */
 }
 
 .agent img.a-rank {
     background: linear-gradient(0deg, rgba(183, 0, 255, 0.5), rgba(183, 0, 255, 0.4));
+    border-radius: 8px;
     /* border: #000000b9 2px solid; */
+}
+
+.namingtoggle {
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.namingtoggle:hover {
+    background-color: #555555;
 }
