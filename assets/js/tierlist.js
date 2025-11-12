@@ -28,11 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
             if (tag.includes("Aftershock")) return `<span class="aftershock-tag">${tag}</span>`;
             if (tag.includes("EXPERT")) return `<span class="expert-tag">EXPERT<span class="upward">»</span></span>`;
             return tag;
-        }).join(", ");
+        }).join(",<br>");
 
         agentDiv.innerHTML = `
         <img class="${rankClass}" src="${agent.image}" alt="${agent.name}">
-        <div>${tagHTML}</div>
+        <div class="agent-tags">${tagHTML}</div>
     `;
 
         container.appendChild(agentDiv);

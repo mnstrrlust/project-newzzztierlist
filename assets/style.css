@@ -13,7 +13,7 @@ html {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background: rgb(34, 34, 34);
+    background: rgb(19, 19, 19);
 }
 
 h1 {
@@ -25,43 +25,48 @@ h1 {
 }
 
 .tierlist {
-    max-width: 1000px;
+    max-width: 1600px;
     margin: 1.25rem auto;
-    background: #000000;
-    /* grid lines color */
     color: #ffffff;
     padding: 1px;
-    /* outer grid line */
-    border-radius: 10px;
     overflow: hidden;
 }
+
+.tier-row, .agents, .tier, .role {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.empty-cell { background: transparent !important; }
 
 .tierlist.tierlist-grid .tier-row {
     display: grid;
     grid-template-columns: 92px repeat(4, minmax(180px, 1fr));
-    gap: 1px;
-    /* single-pixel separators */
-    border: #000000 1px solid;
-    /* outer grid line */
 }
 
 .tierlist .tier-cell {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
     background: rgb(32, 32, 32);
     padding: 10px 12px;
     font-size: 14px;
     line-height: 1.5;
-    /* inner grid lines */
 }
 
-.tierlist .color2 {
-    background: rgb(37, 37, 37);
-    /* alternating column tint */
+.tier-header-cell {
+    background: rgb(32, 32, 32);
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
-.tierlist .tier-header .tier-cell {
-    font-weight: 700;
+.tierlist .color2 { background: rgb(36, 36, 36); }
+
+.tierlist .role {
+    font-weight: 800;
+    font-size: 18px;
     text-align: center;
-    text-transform: none;
+    text-transform: uppercase !important;
 }
 
 .tierlist .role.dps { color: #ed343e; }
@@ -81,6 +86,7 @@ h1 {
     align-items: center;
     justify-content: center;
     font-weight: 900;
+    font-size: 26px;
     color: #ffffff;
     letter-spacing: 0.5px;
     color: #000000;
@@ -98,7 +104,7 @@ h1 {
 /* Agent cells */
 .tierlist .agents {
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.25;
     text-align: center;
 }
 
@@ -106,16 +112,14 @@ h1 {
 .hp-tag { color: #72de97; }
 .aftershock-tag { color: #fffd7f; }
 .expert-tag { color: #ffa938; }
-
-/* upwards arrow symbol for EXPERT tag */
-.upward {
-    display: inline-block;
-    transform: rotate(-90deg);
-}
+.upward { display: inline-block; transform: rotate(-90deg); } /* upwards arrow symbol for EXPERT tag */
 
 .agent {
-    margin-bottom: 6px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
+    font-weight: 600;
+    width: fit-content;
 }
 
 .agent img {
@@ -123,6 +127,11 @@ h1 {
     margin: 0 auto 4px auto;
     width: 96px;
     height: auto;
+}
+
+.agent-tags {
+    margin-top: 6px;
+    /*text-transform: uppercase;*//* dunno if im gonna use this */
 }
 
 .agent img.s-rank {
