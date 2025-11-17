@@ -125,8 +125,9 @@ h1 {
 .agent img {
     display: block;
     margin: 0 auto 4px auto;
-    width: 96px;
+    width: 110px;
     height: auto;
+    padding: 4px;
 }
 
 .agent-tags {
