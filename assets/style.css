@@ -113,6 +113,7 @@ h1 {
 .aftershock-tag { color: #fffd7f; }
 .expert-tag { color: #ffa938; }
 .upward { display: inline-block; transform: rotate(-90deg); } /* upwards arrow symbol for EXPERT tag */
+.original-art { color: #979797; font-size: 10px; }
 
 .agent {
     padding-bottom: 10px;
