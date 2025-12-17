@@ -1,4 +1,22 @@
 const agents = [
+    // 2.4 Phase 1 agent
+    {
+        "name": "Dialyn",
+        "tags": "Art by @Kn1ghtNightAlt (X)",
+        "role": "Stun",
+        "rank": "S (M0)",
+        "tier": "SS+",
+        "image": "assets/agent-images/Dialyn.png"
+    },
+    // 2.4 Phase 2 agent
+    {
+        "name": "Banyue",
+        "tags": "Sheer, EXPERT",
+        "role": "Primary DPS",
+        "rank": "S (M0)",
+        "tier": "S+",
+        "image": "assets/agent-images/Banyue.png"
+    },
     {
         "name": "Alice",
         "tags": "Anomaly, Quickswap",
@@ -366,14 +384,5 @@ const agents = [
         "rank": "A (M6)",
         "tier": "C",
         "image": "assets/agent-images/Anby.png"
-    },
-    // 2.4 Phase 1 agent
-    {
-        "name": "Dialyn",
-        "tags": "Art by @Kn1ghtNightAlt (X)",
-        "role": "Stun",
-        "rank": "S (M0)",
-        "tier": "SS+",
-        "image": "assets/agent-images/Dialyn.png"
     }
 ]
