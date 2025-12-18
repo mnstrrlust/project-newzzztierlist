@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const button = document.getElementById("tierNamingToggle");
     button.addEventListener("click", () => {
-        const cells = document.querySelectorAll(".tier-cell");
+        const cells = document.querySelectorAll(".tier-label");
         cells.forEach(cell => {
             const current = cell.textContent.trim();
             if (!usingAlt && tierNameMapping[current]) {

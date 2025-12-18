@@ -16,88 +16,203 @@
 
     <button class="namingtoggle" id="tierNamingToggle">Use Prydwen Tier naming</button>
 
-    <div class="tierlist tierlist-grid">
-        <div class="tier-row tier-header">
-            <div class="tier-header-cell empty-cell"></div>
-            <div class="tier-header-cell role dps">Primary DPS</div>
-            <div class="tier-header-cell role subdps color2">Secondary DPS</div>
-            <div class="tier-header-cell role support">Support</div>
-            <div class="tier-header-cell role stun color2">Stun</div>
+    <div class="tierlist">
+        <div class="tier header">
+            <div class="tier-label"></div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="header-roles dps">Primary DPS</span>
+                </div>
+                <div class="role-division color2">
+                    <span class="header-roles subdps">Secondary DPS</span>
+                </div>
+                <div class="role-division color1">
+                    <span class="header-roles support">Support</span>
+                </div>
+                <div class="role-division color2">
+                    <span class="header-roles stun">Stun</span>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="SSplus">
-            <div class="tier-cell t0 tier">SS+</div>
-
-            <div class="tier-cell agents" id="SSplus-primary-dps"></div>
-            <div class="tier-cell agents color2" id="SSplus-secondary-dps"></div>
-            <div class="tier-cell agents" id="SSplus-support"></div>
-            <div class="tier-cell agents color2" id="SSplus-stun"></div>
+        <div class="tier t0">
+            <div class="t0 tier-label">SS+</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="SSplus-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="SSplus-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="SSplus-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="SSplus-stun"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="SS">
-            <div class="tier-cell t05 tier">SS</div>
-
-            <div class="tier-cell agents" id="SS-primary-dps"></div>
-            <div class="tier-cell agents color2" id="SS-secondary-dps"></div>
-            <div class="tier-cell agents" id="SS-support"></div>
-            <div class="tier-cell agents color2" id="SS-stun"></div>
+        <div class="tier t05">
+            <div class="t05 tier-label">SS</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="SS-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="SS-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="SS-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="SS-stun"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="Splus">
-            <div class="tier-cell t1 tier">S+</div>
-
-            <div class="tier-cell agents" id="Splus-primary-dps"></div>
-            <div class="tier-cell agents color2" id="Splus-secondary-dps"></div>
-            <div class="tier-cell agents" id="Splus-support"></div>
-            <div class="tier-cell agents color2" id="Splus-stun"></div>
+        <div class="tier t1">
+            <div class="t1 tier-label">S+</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="Splus-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="Splus-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="Splus-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="Splus-stun"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="S">
-            <div class="tier-cell t15 tier">S</div>
-
-            <div class="tier-cell agents" id="S-primary-dps"></div>
-            <div class="tier-cell agents color2" id="S-secondary-dps"></div>
-            <div class="tier-cell agents" id="S-support"></div>
-            <div class="tier-cell agents color2" id="S-stun"></div>
+        <div class="tier t15">
+            <div class="t15 tier-label">S</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="S-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="S-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="S-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="S-stun"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="A">
-            <div class="tier-cell t2 tier">A</div>
-
-            <div class="tier-cell agents" id="A-primary-dps"></div>
-            <div class="tier-cell agents color2" id="A-secondary-dps"></div>
-            <div class="tier-cell agents" id="A-support"></div>
-            <div class="tier-cell agents color2" id="A-stun"></div>
+        <div class="tier t2">
+            <div class="t2 tier-label">A</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="A-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="A-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="A-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="A-stun"></div>
+                </div>
+            </div>
         </div>
-                
-        <div class="tier-row" id="B">
-            <div class="tier-cell t3 tier">B</div>
 
-            <div class="tier-cell agents" id="B-primary-dps"></div>
-            <div class="tier-cell agents color2" id="B-secondary-dps"></div>
-            <div class="tier-cell agents" id="B-support"></div>
-            <div class="tier-cell agents color2" id="B-stun"></div>
+        <div class="tier t3">
+            <div class="t3 tier-label">B</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="B-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="B-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="B-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="B-stun"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="tier-row" id="C">
-            <div class="tier-cell t4 tier">C</div>
-
-            <div class="tier-cell agents" id="C-primary-dps"></div>
-            <div class="tier-cell agents color2" id="C-secondary-dps"></div>
-            <div class="tier-cell agents" id="C-support"></div>
-            <div class="tier-cell agents color2" id="C-stun"></div>
+        <div class="tier t4">
+            <div class="t4 tier-label">C</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="C-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="C-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="C-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="C-stun"></div>
+                </div>
+            </div>
         </div>
-        
-        <!-- F Tier (inactive for now)
-        <div class="tier-row" id="F">
-            <div class="tier-cell t5 tier">F</div>
 
-            <div class="tier-cell agents" id="F-primary-dps"></div>
-            <div class="tier-cell agents color2" id="F-secondary-dps"></div>
-            <div class="tier-cell agents" id="F-support"></div>
-            <div class="tier-cell agents color2" id="F-stun"></div>
-        </div>-->
-    </div>
+        <!--<div class="tier t5">
+            <div class="t5 tier-label">F</div>
+            <div class="tier-content">
+                <div class="role-division color1">
+                    <span class="role-label dps">Primary DPS</span>
+                    <div class="tier-items" id="F-primary-dps"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label subdps">Secondary DPS</span>
+                    <div class="tier-items" id="F-secondary-dps"></div>
+                </div>
+                <div class="role-division color1">
+                    <span class="role-label support">Support</span>
+                    <div class="tier-items" id="F-support"></div>
+                </div>
+                <div class="role-division color2">
+                    <span class="role-label stun">Stun</span>
+                    <div class="tier-items" id="F-stun"></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
     <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
