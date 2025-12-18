@@ -112,8 +112,9 @@ h1 {
 .hp-tag { color: #72de97; }
 .aftershock-tag { color: #fffd7f; }
 .expert-tag { color: #ffa938; }
+.watchlist { color: #5ceffa; } /* temporary solution */
 .upward { display: inline-block; transform: rotate(-90deg); } /* upwards arrow symbol for EXPERT tag */
-.original-art { color: #979797; font-size: 10px; }
+.original-art { color: #979797; font-size: 10px; } /* temporary solution */
 
 .agent {
     padding-bottom: 10px;

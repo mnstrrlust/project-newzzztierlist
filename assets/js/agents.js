@@ -2,7 +2,7 @@ const agents = [
     // 2.4 Phase 1 agent
     {
         "name": "Dialyn",
-        "tags": "Art by @Kn1ghtNightAlt (X)",
+        "tags": "Art by @Kn1ghtNightAlt (X), Buff",
         "role": "Stun",
         "rank": "S (M0)",
         "tier": "SS+",
@@ -19,7 +19,7 @@ const agents = [
     },
     {
         "name": "Alice",
-        "tags": "Anomaly, Quickswap",
+        "tags": "Watchlist, Anomaly, Quickswap",
         "role": "Primary DPS",
         "rank": "S (M0)",
         "tier": "SS+",
@@ -51,7 +51,7 @@ const agents = [
     },
     {
         "name": "Orphie",
-        "tags": "Partner, Aftershock",
+        "tags": "Aftershock",
         "role": "Secondary DPS",
         "rank": "S (M0)",
         "tier": "SS+",
@@ -86,7 +86,7 @@ const agents = [
         "tags": "Aftershock, Buff",
         "role": "Stun",
         "rank": "S (M0)",
-        "tier": "SS+",
+        "tier": "SS",
         "image": "assets/agent-images/JuFufu.png"
     },
     {
@@ -102,7 +102,7 @@ const agents = [
         "tags": "Buff",
         "role": "Stun",
         "rank": "S (M0)",
-        "tier": "SS+",
+        "tier": "SS",
         "image": "assets/agent-images/Lighter.png"
     },
     {
@@ -123,7 +123,7 @@ const agents = [
     },
     {
         "name": "SoldierAnby",
-        "tags": "Aftershock, Partner, EXPERT",
+        "tags": "Aftershock, EXPERT",
         "role": "Primary DPS",
         "rank": "S (M0)",
         "tier": "SS",
@@ -174,7 +174,7 @@ const agents = [
         "tags": "Partner (Miyabi)",
         "role": "Support",
         "rank": "A (M6)",
-        "tier": "SS",
+        "tier": "S+",
         "image": "assets/agent-images/Soukaku.png"
     },
     {
@@ -182,7 +182,7 @@ const agents = [
         "tags": "Aftershock",
         "role": "Stun",
         "rank": "A (M6)",
-        "tier": "SS",
+        "tier": "S+",
         "image": "assets/agent-images/Pulchra.png"
     },
     {
@@ -192,14 +192,6 @@ const agents = [
         "rank": "S (M0)",
         "tier": "SS",
         "image": "assets/agent-images/Lycaon.png"
-    },
-    {
-        "name": "Manato",
-        "tags": "Sheer",
-        "role": "Primary DPS",
-        "rank": "A (M6)",
-        "tier": "S+",
-        "image": "assets/agent-images/Manato.png"
     },
     {
         "name": "Hugo",
@@ -216,6 +208,30 @@ const agents = [
         "rank": "S (M0)",
         "tier": "S+",
         "image": "assets/agent-images/Jane.png"
+    },
+    {
+        "name": "Ellen",
+        "tags": "",
+        "role": "Primary DPS",
+        "rank": "S (M0)",
+        "tier": "S+",
+        "image": "assets/agent-images/Ellen.png"
+    },
+    {
+        "name": "ZhuYuan",
+        "tags": "",
+        "role": "Primary DPS",
+        "rank": "S (M0)",
+        "tier": "S+",
+        "image": "assets/agent-images/ZhuYuan.png"
+    },
+    {
+        "name": "Manato",
+        "tags": "Sheer",
+        "role": "Primary DPS",
+        "rank": "A (M6)",
+        "tier": "S+",
+        "image": "assets/agent-images/Manato.png"
     },
     {
         "name": "Piper",
@@ -258,22 +274,6 @@ const agents = [
         "image": "assets/agent-images/Qingyi.png"
     },
     {
-        "name": "Ellen",
-        "tags": "",
-        "role": "Primary DPS",
-        "rank": "S (M0)",
-        "tier": "S",
-        "image": "assets/agent-images/Ellen.png"
-    },
-    {
-        "name": "ZhuYuan",
-        "tags": "",
-        "role": "Primary DPS",
-        "rank": "S (M0)",
-        "tier": "S",
-        "image": "assets/agent-images/ZhuYuan.png"
-    },
-    {
         "name": "Harumasa",
         "tags": "EXPERT",
         "role": "Primary DPS",
@@ -283,7 +283,7 @@ const agents = [
     },
     {
         "name": "Rina",
-        "tags": "PEN",
+        "tags": "",
         "role": "Support",
         "rank": "S (M0)",
         "tier": "S",
@@ -355,7 +355,7 @@ const agents = [
     },
     {
         "name": "Grace",
-        "tags": "Anomaly, PEN",
+        "tags": "Anomaly",
         "role": "Secondary DPS",
         "rank": "S (M0)",
         "tier": "B",

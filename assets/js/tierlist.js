@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
             if (tag.includes("Partner")) return `<span class="partner-tag">${tag}</span>`;
             if (tag.includes("Aftershock")) return `<span class="aftershock-tag">${tag}</span>`;
             if (tag.includes("EXPERT")) return `<span class="expert-tag">EXPERT<span class="upward">»</span></span>`;
-            if (tag.includes("Art by")) return `<span class="original-art">${tag}</span>`;
+            if (tag.includes("Art by")) return `<span class="original-art">${tag}</span>`; // temporary solution
+            if (tag.includes("Watchlist")) return `<span class="watchlist">${tag}</span>`; // temporary solution
             return tag;
         }).join(",<br>");
 
