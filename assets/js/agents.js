@@ -2,10 +2,11 @@ const agents = [
     // 2.4 Phase 1 agent
     {
         "name": "Dialyn",
-        "tags": "Art by @Kn1ghtNightAlt (X), Buff",
+        "tags": "Buff",
         "role": "Stun",
         "rank": "S (M0)",
         "tier": "SS+",
+        "other": "@Kn1ghtNightAlt (X)",
         "image": "assets/agent-images/Dialyn.png"
     },
     // 2.4 Phase 2 agent
@@ -19,7 +20,8 @@ const agents = [
     },
     {
         "name": "Alice",
-        "tags": "Watchlist, Anomaly, Quickswap",
+        "tags": "Anomaly, Quickswap",
+        "watchlist": true,
         "role": "Primary DPS",
         "rank": "S (M0)",
         "tier": "SS+",
@@ -66,7 +68,7 @@ const agents = [
         "image": "assets/agent-images/Astra.png"
     },
     {
-        "name": "Yuzuha",
+        "name": "Ukinami-Yuzuha",
         "tags": "Anomaly, Aftershock",
         "role": "Support",
         "rank": "S (M0)",
@@ -84,9 +86,12 @@ const agents = [
     {
         "name": "Ju-Fufu",
         "tags": "Aftershock, Buff",
+        "watchlist": false,
         "role": "Stun",
         "rank": "S (M0)",
         "tier": "SS",
+        "tierdiff": "-",
+        "other": "",
         "image": "assets/agent-images/JuFufu.png"
     },
     {
@@ -132,6 +137,7 @@ const agents = [
     {
         "name": "Yanagi",
         "tags": "Anomaly",
+        "watchlist": true,
         "role": "Primary DPS",
         "rank": "S (M0)",
         "tier": "SS",

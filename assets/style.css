@@ -182,7 +182,12 @@ h1 {
     width: fit-content;
 }
 
-.agent img {
+.agent-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.agent img.main {
     display: block;
     margin: 0 auto 4px auto;
     width: 110px;
@@ -191,12 +196,47 @@ h1 {
     margin: 4px auto 0 auto;
 }
 
-.agent img:hover {
+.agent img.main:hover {
     transform: scale(1.05);
     transition: transform 0.2s;
 }
 
-.agent-tags { margin-top: 8px; }
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #1900ff;
+    font-size: 10px; 
+    margin-top: 2px;
+}
+
+.watchlist-icon,
+.positive-diff-icon,
+.negative-diff-icon {
+    position: absolute;
+    top: 4px; /* distance from top */
+    width: 35px;
+    border-radius: 8px;
+}
+
+.watchlist-icon {
+    background: #008dc5;
+    left: 0px;
+}
+
+.positive-diff-icon {
+    background: #00c57d;
+    right: 0px;
+}
+
+.negative-diff-icon {
+    background: #ff5c5c;
+    right: 0px;
+}
+
+.agent-tags { margin-top: 2px; }
 
 .agent img.s-rank {
     background: linear-gradient(180deg, rgb(187, 159, 1), rgb(255, 222, 36));

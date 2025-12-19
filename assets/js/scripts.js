@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Safer binding: if button is missing, skip without error
     const roleLabels = [
         { selector: ".dps-div", className: "dps", text: "Primary DPS" },
         { selector: ".subdps-div", className: "subdps", text: "Secondary DPS" },
