@@ -50,7 +50,7 @@ const agents = [
         "image": "assets/agent-images/Vivian.png"
     },
     {
-        "name": "Orphie",
+        "name": "Orphie-And-Magus",
         "tags": "Aftershock",
         "role": "Secondary DPS",
         "rank": "S (M0)",
@@ -58,7 +58,7 @@ const agents = [
         "image": "assets/agent-images/Orphie.png"
     },
     {
-        "name": "Astra",
+        "name": "Astra-Yao",
         "tags": "Heal",
         "role": "Support",
         "rank": "S (M0)",
@@ -82,7 +82,7 @@ const agents = [
         "image": "assets/agent-images/Lucia.png"
     },
     {
-        "name": "JuFufu",
+        "name": "Ju-Fufu",
         "tags": "Aftershock, Buff",
         "role": "Stun",
         "rank": "S (M0)",
@@ -122,7 +122,7 @@ const agents = [
         "image": "assets/agent-images/Yidhari.png"
     },
     {
-        "name": "SoldierAnby",
+        "name": "Anby-Demara-Soldier-0",
         "tags": "Aftershock, EXPERT",
         "role": "Primary DPS",
         "rank": "S (M0)",
@@ -162,7 +162,7 @@ const agents = [
         "image": "assets/agent-images/Nicole.png"
     },
     {
-        "name": "PanYinhu",
+        "name": "Pan-Yinhu",
         "tags": "Sheer, Heal",
         "role": "Support",
         "rank": "A (M6)",
@@ -202,7 +202,7 @@ const agents = [
         "image": "assets/agent-images/Hugo.png"
     },
     {
-        "name": "Jane",
+        "name": "Jane-Doe",
         "tags": "Anomaly",
         "role": "Primary DPS",
         "rank": "S (M0)",
@@ -218,7 +218,7 @@ const agents = [
         "image": "assets/agent-images/Ellen.png"
     },
     {
-        "name": "ZhuYuan",
+        "name": "Zhu-Yuan",
         "tags": "",
         "role": "Primary DPS",
         "rank": "S (M0)",
@@ -306,7 +306,7 @@ const agents = [
         "image": "assets/agent-images/Caesar.png"
     },
     {
-        "name": "Soldier11",
+        "name": "Soldier-11",
         "tags": "",
         "role": "Primary DPS",
         "rank": "S (M0)",

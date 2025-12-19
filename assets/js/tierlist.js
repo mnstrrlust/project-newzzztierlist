@@ -33,9 +33,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }).join(",<br>");
 
         agentDiv.innerHTML = `
-        <img class="${rankClass}" src="${agent.image}" alt="${agent.name}">
+        <a href="https://www.prydwen.gg/zenless/characters/${agent.name.toLowerCase()}" target="_blank">
+            <img class="${rankClass}" src="${agent.image}" alt="${agent.name}">
+        </a>
         <div class="agent-tags">${tagHTML}</div>
-    `;
+    `; // Link to Prydwen temporarily
 
         container.appendChild(agentDiv);
     });
