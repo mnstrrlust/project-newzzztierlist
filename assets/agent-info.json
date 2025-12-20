@@ -1,4 +1,18 @@
 [{
+    "name": "EXAMPLE AGENT",
+    "tags": "Tags, such as Sheer, Anomaly, Aftershock, Quickswap, Buff, Heal, EXPERT, Shield, Partner",
+    "watchlist": "can be true or false (no quotes)",
+    "role": "primary-dps, secondary-dps, support or stun",
+    "rank": "S, A or B, which are A-Rank agents without mindscapes",
+    "element": "the character's element",
+    "specialty": "anomaly, attack, rupture, defense, support or stun",
+    "tier": "tier in the tier list, such as SS+, SS, S+, S, A, B or C",
+    "tierdiff": "+ if agents went up 1 tier, ++ if 2 or more tiers, - if down 1 tier, -- if down 2 or more tiers, empty if no change",
+    "other": "other info",
+    "special-title": "void-hunter, grandmaster, etc.",
+    "image": "assets/agent-images/AgentName.png"
+},
+{
     "name": "Dialyn",
     "tags": "Buff",
     "watchlist": false,
@@ -21,7 +35,7 @@
     "element": "fire",
     "specialty": "rupture",
     "tier": "S+",
-    "tierdiff": "none",
+    "tierdiff": "",
     "other": "",
     "special-title": "",
     "image": "assets/agent-images/Banyue.png"
