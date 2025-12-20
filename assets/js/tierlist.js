@@ -20,9 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const agentDiv = document.createElement("div");
                 agentDiv.className = "agent";
 
-                const rawRank = agent.rank || "";
-                const rankLetter = rawRank.trim().substring(0, 1).toUpperCase();
-                const rankClass = rankLetter === "S" ? "s-rank" : "a-rank";
+                const rankClass = agent.rank === "S" ? "s-rank" : "a-rank";
                 const otherInfo = agent.other || "";
 
                 const tags = agent.tags ? agent.tags.split(",").map(t => t.trim()) : [];

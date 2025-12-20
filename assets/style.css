@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root {
     --tier-ssplus: #ef5350;
@@ -12,18 +13,15 @@
     --tier-f: #76f8f8;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* font-weight can be anything from 200 to 1000 */
+/* Nunito font-weight can be anything from 200 to 1000 */
+/* Lexend font-weight can be anything from 100 to 900 */
+
 html {
-    font-family: "Nunito", sans-serif;
+    font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 300;
     background: rgb(19, 19, 19);
 }
 
@@ -50,7 +48,6 @@ h1 {
     flex-direction: column;
     margin-bottom: 1rem;
     overflow: hidden;
-    background: #fff;
 }
 
 .tier-content {
@@ -171,8 +168,6 @@ h1 {
 .hp-tag { color: #72de97; }
 .aftershock-tag { color: #fffd7f; }
 .expert-tag { color: #ffa938; }
-.watchlist { color: #5ceffa; } /* temporary solution */
-.original-art { color: #979797; font-size: 10px; } /* temporary solution */
 
 .upward { display: inline-block; transform: rotate(-90deg);} /* upwards arrow symbol for EXPERT tag */
 
@@ -208,7 +203,7 @@ h1 {
     width: 100%;
     text-align: center;
     color: #1900ff;
-    font-size: 10px; 
+    font-size: 8px; 
     margin-top: 2px;
 }
 
@@ -249,22 +244,23 @@ h1 {
 }
 
 .namingtoggle {
+    font-family: inherit;
     display: block;
     margin: 1.5rem auto 0 auto;
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    font-weight: 600;
-    background-color: #444444;
-    color: #ffffff;
+    font-weight: 700;
+    background-color: #361166;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .namingtoggle:hover {
-    background-color: #555555;
+    background-color: #4b1e8c;
 }
 
 .namingtoggle:active {
-    background-color: #333333;
+    background-color: #351066;
 }

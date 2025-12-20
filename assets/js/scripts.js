@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
             usingAlt = !usingAlt;
 
             button.textContent = usingAlt
-                ? "Use normal tier naming"
-                : "Use Prydwen tier naming";
+                ? "Use regular tier naming"
+                : "Use T0, T0.5, etc. naming";
         });
     }
 
