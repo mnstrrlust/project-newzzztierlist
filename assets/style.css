@@ -3,20 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 :root {
-    --tier-ssplus: #ef5350;
-    --tier-ss: #ec6563;
-    --tier-splus: #ffa967;
-    --tier-s: #ffbe7c;
-    --tier-a: #fed4a0;
-    --tier-b: #bfff7f;
-    --tier-c: #9df89d;
-    --tier-f: #76f8f8;
+    --tier-ssplus:
+    rgba(219, 105, 64, 1) 0%, 
+    rgba(235, 75, 90, 1) 40%, 
+    rgba(210, 80, 140, 1) 75%, 
+    rgba(150, 90, 180, 1) 100%;
+
+    --tier-ssplus-border: rgba(235, 75, 90, 1);
+    --tier-ss: rgba(210, 80, 140, 1);
+    --tier-splus: rgba(150, 90, 180, 1);
+    --tier-s: rgb(180, 132, 207);
+    --tier-a: rgb(195, 159, 223);
+    --tier-b: rgba(90, 120, 200, 1);
+    --tier-c: rgba(120, 150, 220, 1);
+    --tier-f: rgba(80, 180, 220, 1);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* Nunito font-weight can be anything from 200 to 1000 */
-/* Lexend font-weight can be anything from 100 to 900 */
+/* Nunito font-weight can be anything from 200 to 1000
+Lexend font-weight can be anything from 100 to 900 */
 
 html {
     font-family: "Lexend", sans-serif;
@@ -71,30 +77,6 @@ h5 {
     border: 0px solid #eee;
 }
 
-@media (min-width: 768px) {
-    .tier {
-        flex-direction: row;
-        align-items: stretch;
-    }
-
-    .tier-label {
-        flex: 0 0 120px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .tier-content {
-        flex: 1;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .role-division {
-        flex: 1 1 25%;
-    }
-}
-
 .role-label, .header-roles {
     display: block;
     text-align: center;
@@ -139,8 +121,33 @@ h5 {
     padding: .75rem;
 }
 
+@media (min-width: 768px) {
+    .tier {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .tier-label {
+        flex: 0 0 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tier-content {
+        flex: 1;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .role-division {
+        flex: 1 1 25%;
+    }
+}
+
+
 .tier.header { background: transparent; } 
-.tier.t0 { background: var(--tier-ssplus); } 
+.tier.t0 { background: linear-gradient(180deg, var(--tier-ssplus)); }
 .tier.t05 { background: var(--tier-ss); } 
 .tier.t1 { background: var(--tier-splus); }
 .tier.t15 { background: var(--tier-s); } 
@@ -163,7 +170,10 @@ h5 {
         justify-content: center;
     }
 
-    .tier.t0 { border-color: var(--tier-ssplus) }
+    .tier.t0 {
+        border-color: var(--tier-ssplus-border);
+        background: linear-gradient(180deg, var(--tier-ssplus));
+    }
     .tier.t05 { border-color: var(--tier-ss) }
     .tier.t1 { border-color: var(--tier-splus) }
     .tier.t15 { border-color: var(--tier-s) }
@@ -260,7 +270,7 @@ h5 {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: 700;
-    background-color: #361166;
+    background: #eb4b73;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -268,9 +278,9 @@ h5 {
 }
 
 .namingtoggle:hover {
-    background-color: #4b1e8c;
+    background-color: #ff5b84;
 }
 
 .namingtoggle:active {
-    background-color: #351066;
+    background-color: #f0406c;
 }
