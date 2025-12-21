@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             usingAlt = !usingAlt;
 
             button.textContent = usingAlt
-                ? "Use regular tier naming"
+                ? "Use regular naming"
                 : "Use T0, T0.5, etc. naming";
         });
     }
