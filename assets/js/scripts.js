@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
             usingAlt = !usingAlt;
 
-            button.textContent = usingAlt
+            namingToggleButton.textContent = usingAlt
                 ? "Use regular naming"
                 : "Use T0, T0.5, etc. naming";
         });
