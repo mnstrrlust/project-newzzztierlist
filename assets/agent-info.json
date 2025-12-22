@@ -9,8 +9,7 @@
     "tier": "tier in the tier list, such as SS+, SS, S+, S, A, B or C",
     "tierdiff": "+ if agents went up 1 tier, ++ if 2 or more tiers, - if down 1 tier, -- if down 2 or more tiers, empty if no change",
     "other": "other info",
-    "special-title": "void-hunter, grandmaster, etc.",
-    "image": "assets/agent-images/AgentName.png"
+    "special-title": "void-hunter, grandmaster, etc."
 },
 {
     "name": "Ye-Shunguang",
@@ -23,8 +22,7 @@
     "tier": "",
     "tierdiff": "",
     "other": "",
-    "special-title": "void-hunter",
-    "image": "assets/agent-images/YeShunguang.png"
+    "special-title": "void-hunter"
 },
 {
     "name": "Zhao",
@@ -37,8 +35,7 @@
     "tier": "",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Zhao.png"
+    "special-title": ""
 },
 {
     "name": "Dialyn",
@@ -51,8 +48,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "@Kn1ghtNightAlt (X)",
-    "special-title": "",
-    "image": "assets/agent-images/Dialyn.png"
+    "special-title": ""
 },
 {
     "name": "Banyue",
@@ -65,8 +61,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Banyue.png"
+    "special-title": ""
 },
 {
     "name": "Yixuan",
@@ -79,8 +74,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "grandmaster",
-    "image": "assets/agent-images/Yixuan.png"
+    "special-title": "grandmaster"
 },
 {
     "name": "Miyabi",
@@ -93,8 +87,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "void-hunter",
-    "image": "assets/agent-images/Miyabi.png"
+    "special-title": "void-hunter"
 },
 {
     "name": "Alice",
@@ -107,8 +100,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Alice.png"
+    "special-title": ""
 },
 {
     "name": "Vivian",
@@ -121,8 +113,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Vivian.png"
+    "special-title": ""
 },
 {
     "name": "Orphie-And-Magus",
@@ -135,8 +126,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Orphie.png"
+    "special-title": ""
 },
 {
     "name": "Astra-Yao",
@@ -149,8 +139,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Astra.png"
+    "special-title": ""
 },
 {
     "name": "Ukinami-Yuzuha",
@@ -163,8 +152,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Yuzuha.png"
+    "special-title": ""  
 },
 {
     "name": "Lucia",
@@ -177,8 +165,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Lucia.png"
+    "special-title": ""
 },
 {
     "name": "Ju-Fufu",
@@ -191,8 +178,7 @@
     "tier": "SS",
     "tierdiff": "-",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/JuFufu.png"
+    "special-title": ""  
 },
 {
     "name": "Trigger",
@@ -205,8 +191,7 @@
     "tier": "SS+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Trigger.png"
+    "special-title": ""
 },
 {
     "name": "Lighter",
@@ -219,8 +204,7 @@
     "tier": "SS",
     "tierdiff": "-",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Lighter.png"
+    "special-title": ""
 },
 {
     "name": "Evelyn",
@@ -233,8 +217,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Evelyn.png"
+    "special-title": ""
 },
 {
     "name": "Yidhari",
@@ -247,8 +230,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Yidhari.png"
+    "special-title": ""
 },
 {
     "name": "Anby-Demara-Soldier-0",
@@ -261,8 +243,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/SoldierAnby.png"
+    "special-title": ""
 },
 {
     "name": "Yanagi",
@@ -275,8 +256,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Yanagi.png"
+    "special-title": ""
 },
 {
     "name": "Seed",
@@ -289,8 +269,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Seed.png"
+    "special-title": ""
 },
 {
     "name": "Yanagi",
@@ -303,8 +282,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Yanagi.png"
+    "special-title": ""
 },
 {
     "name": "Nicole",
@@ -317,8 +295,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Nicole.png"
+    "special-title": ""
 },
 {
     "name": "Pan-Yinhu",
@@ -331,8 +308,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/PanYinhu.png"
+    "special-title": ""
 },
 {
     "name": "Soukaku",
@@ -345,8 +321,7 @@
     "tier": "S+",
     "tierdiff": "-",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Soukaku.png"
+    "special-title": ""
 },
 {
     "name": "Pulchra",
@@ -359,8 +334,7 @@
     "tier": "S+",
     "tierdiff": "-",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Pulchra.png"
+    "special-title": ""
 },
 {
     "name": "Lycaon",
@@ -373,8 +347,7 @@
     "tier": "SS",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Lycaon.png"
+    "special-title": ""
 },
 {
     "name": "Manato",
@@ -387,8 +360,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Manato.png"
+    "special-title": ""
 },
 {
     "name": "Hugo",
@@ -401,11 +373,10 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Hugo.png"
+    "special-title": ""
 },
 {
-    "name": "Jane",
+    "name": "Jane-Doe",
     "tags": "Anomaly",
     "watchlist": false,
     "role": "primary-dps",
@@ -415,8 +386,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Jane.png"
+    "special-title": ""
 },
 {
     "name": "Piper",
@@ -429,8 +399,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Piper.png"
+    "special-title": ""
 },
 {
     "name": "Burnice",
@@ -443,8 +412,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Burnice.png"
+    "special-title": ""
 },
 {
     "name": "Jane-Doe",
@@ -457,8 +425,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Jane.png"
+    "special-title": ""
 },
 {
     "name": "Piper",
@@ -471,8 +438,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Piper.png"
+    "special-title": ""
 },
 {
     "name": "Qingyi",
@@ -485,8 +451,7 @@
     "tier": "S+",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Qingyi.png"
+    "special-title": ""
 },
 {
     "name": "Ellen",
@@ -499,8 +464,7 @@
     "tier": "S+",
     "tierdiff": "+",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Ellen.png"
+    "special-title": ""
 },
 {
     "name": "Zhu-Yuan",
@@ -513,8 +477,7 @@
     "tier": "S+",
     "tierdiff": "+",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/ZhuYuan.png"
+    "special-title": ""
 },
 {
     "name": "Harumasa",
@@ -527,8 +490,7 @@
     "tier": "S",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Harumasa.png"
+    "special-title": ""
 },
 {
     "name": "Rina",
@@ -541,8 +503,7 @@
     "tier": "S",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Rina.png"
+    "special-title": ""
 },
 {
     "name": "Lucy",
@@ -555,8 +516,7 @@
     "tier": "S",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Lucy.png"
+    "special-title": ""
 },
 {
     "name": "Caesar",
@@ -569,8 +529,7 @@
     "tier": "S",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Caesar.png"
+    "special-title": ""
 },
 {
     "name": "Soldier-11",
@@ -583,8 +542,7 @@
     "tier": "A",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Soldier11.png"
+    "special-title": ""
 },
 {
     "name": "Corin",
@@ -597,8 +555,7 @@
     "tier": "A",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Corin.png"
+    "special-title": ""
 },
 {
     "name": "Koleda",
@@ -611,8 +568,7 @@
     "tier": "A",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Koleda.png"
+    "special-title": ""
 },
 {
     "name": "Anton",
@@ -625,8 +581,7 @@
     "tier": "B",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Anton.png"
+    "special-title": ""
 },
 {
     "name": "Billy",
@@ -639,8 +594,7 @@
     "tier": "B",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Billy.png"
+    "special-title": ""
 },
 {
     "name": "Nekomata",
@@ -653,8 +607,7 @@
     "tier": "B",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Nekomata.png"
+    "special-title": ""
 },
 {
     "name": "Grace",
@@ -667,8 +620,7 @@
     "tier": "B",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Grace.png"
+    "special-title": ""
 },
 {
     "name": "Seth",
@@ -681,8 +633,7 @@
     "tier": "B",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Seth.png"
+    "special-title": ""
 },
 {
     "name": "Ben",
@@ -695,8 +646,7 @@
     "tier": "C",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Ben.png"
+    "special-title": ""
 },
 {
     "name": "Anby",
@@ -709,6 +659,5 @@
     "tier": "C",
     "tierdiff": "",
     "other": "",
-    "special-title": "",
-    "image": "assets/agent-images/Anby.png"
+    "special-title": ""
 }]

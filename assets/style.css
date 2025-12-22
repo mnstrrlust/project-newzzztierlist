@@ -172,7 +172,7 @@ h5 {
 
     .tier.t0 {
         border-color: var(--tier-ssplus-border);
-        background: linear-gradient(180deg, var(--tier-ssplus));
+        background: linear-gradient(90deg, var(--tier-ssplus));
     }
     .tier.t05 { border-color: var(--tier-ss) }
     .tier.t1 { border-color: var(--tier-splus) }

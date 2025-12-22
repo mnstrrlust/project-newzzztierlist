@@ -12,16 +12,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     .toLowerCase()
                     .replace(/\s+/g, "-")
                     .replace(/[^\w-]/g, "");
+
                 if (!tierId || !roleId) return;
                 const containerId = `${tierId}-${roleId}`;
                 const container = document.getElementById(containerId);
                 if (!container) return;
 
+                const agentChibi = `assets/agent-chibis/${agent.name}.png`;
+                const agentSplash = `assets/agent-splashes/${agent.name}_splash.png`;
+
                 const agentDiv = document.createElement("div");
                 agentDiv.className = "agent";
 
                 const rankClass = agent.rank === "S" ? "s-rank" : "a-rank";
-                const otherInfo = agent.other || "";
+                let otherInfo = agent.other || "";
 
                 const tags = agent.tags ? agent.tags.split(",").map(t => t.trim()) : [];
                 const tagHTML = tags.map(tag => {
@@ -35,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 agentDiv.innerHTML = `
                     <div class="agent-img-container">
                         <a href="https://www.prydwen.gg/zenless/characters/${agent.name.toLowerCase()}" target="_blank">
-                            <img class="${rankClass} main" src="${agent.image}" alt="${agent.name}">
+                            <img class="${rankClass} main" src="${agentChibi}" alt="${agent.name}">
                         </a>
                         <div class="overlay-text">${otherInfo}</div>
                         ${agent.watchlist ? `<img class="watchlist-icon" src="assets/other-sprites/watchlist.svg" alt="Watchlist">` : ''}
@@ -47,6 +51,23 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="agent-tags">${tagHTML}</div>
                 `; // Link to Prydwen temporarily
                 container.appendChild(agentDiv);
+
+                const agentImg = agentDiv.querySelector("img.main");
+
+                const splashArtToggle = document.getElementById("splashToggle");
+                const overlayText = agentDiv.querySelector(".overlay-text");
+                
+                splashArtToggle.addEventListener("click", () => {
+                    if (agentImg.src.includes(agentChibi)) {
+                        agentImg.src = agentSplash;
+                        if (overlayText) overlayText.style.display = "none";
+                        splashArtToggle.textContent = "Use chibi arts";
+                    } else {
+                        agentImg.src = agentChibi;
+                        if (overlayText) overlayText.style.display = "block";
+                        splashArtToggle.textContent = "Use splash arts";
+                    }
+                });
             });
         });
 });

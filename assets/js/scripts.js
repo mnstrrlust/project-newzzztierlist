@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let usingAlt = false;
 
-    const button = document.getElementById("tierNamingToggle");
-    if (button) {
-        button.addEventListener("click", () => {
+    const namingToggleButton = document.getElementById("tierNamingToggle");
+    if (namingToggleButton) {
+        namingToggleButton.addEventListener("click", () => {
             const cells = document.querySelectorAll(".tier-label");
             cells.forEach(cell => {
                 const current = cell.textContent.trim();
