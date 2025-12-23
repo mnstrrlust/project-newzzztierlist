@@ -17,9 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const containerId = `${tierId}-${roleId}`;
                 const container = document.getElementById(containerId);
                 if (!container) return;
-
                 const agentChibi = `assets/agent-chibis/${agent.name}.png`;
-                const agentSplash = `assets/agent-splashes/${agent.name}_splash.png`;
 
                 const agentDiv = document.createElement("div");
                 agentDiv.className = "agent";
@@ -51,23 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="agent-tags">${tagHTML}</div>
                 `; // Link to Prydwen temporarily
                 container.appendChild(agentDiv);
-
-                const agentImg = agentDiv.querySelector("img.main");
-
-                const splashArtToggle = document.getElementById("splashToggle");
-                const overlayText = agentDiv.querySelector(".overlay-text");
-                
-                splashArtToggle.addEventListener("click", () => {
-                    if (agentImg.src.includes(agentChibi)) {
-                        agentImg.src = agentSplash;
-                        if (overlayText) overlayText.style.display = "none";
-                        splashArtToggle.textContent = "Use chibi arts";
-                    } else {
-                        agentImg.src = agentChibi;
-                        if (overlayText) overlayText.style.display = "block";
-                        splashArtToggle.textContent = "Use splash arts";
-                    }
-                });
             });
         });
 });
