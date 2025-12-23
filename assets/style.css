@@ -61,6 +61,12 @@ h5 {
     flex-direction: column;
     margin-bottom: 1rem;
     overflow: hidden;
+    border-radius: 8px;
+}
+
+.dps-border {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .tier-content {
@@ -285,4 +291,52 @@ h5 {
 
 .namingtoggle:active {
     background-color: #8233afaa;
+}
+
+.changelog {
+    font-family: inherit;
+    max-width: 800px;
+    margin: 2rem auto 0 auto;
+    border-radius: 8px;
+    background: #222;
+    color: #fff;
+    border: 2px solid #555;
+}
+
+.changelog-header {
+    font-family: inherit;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: .7em;
+    color: #fff;
+    font-size: 1.2em;
+    background: #333;
+    cursor: pointer;
+}
+
+.changelog-body {
+    font-weight: 500;
+    display: none;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.changelog-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+.changelog-list li {
+    margin-bottom: .5em;
+}
+
+.changelog-list.nostyle {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.changelog-header.active + .changelog-body {
+    display: block;
 }

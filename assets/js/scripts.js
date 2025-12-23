@@ -57,4 +57,9 @@ document.addEventListener("DOMContentLoaded", () => {
             prependRoleLabel(div, className, text);
         });
     });
+    document.querySelectorAll(".changelog-header").forEach(btn => {
+        btn.addEventListener("click", () =>
+            btn.classList.toggle("active")
+        );
+    });
 });

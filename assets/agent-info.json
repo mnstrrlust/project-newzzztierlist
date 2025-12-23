@@ -59,7 +59,7 @@
     "element": "fire",
     "specialty": "rupture",
     "tier": "S+",
-    "tierdiff": "new",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
@@ -176,7 +176,7 @@
     "element": "fire",
     "specialty": "stun",
     "tier": "SS",
-    "tierdiff": "-",
+    "tierdiff": "",
     "other": "",
     "special-title": ""  
 },
@@ -202,7 +202,7 @@
     "element": "fire",
     "specialty": "stun",
     "tier": "SS",
-    "tierdiff": "-",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
@@ -319,7 +319,7 @@
     "element": "ice",
     "specialty": "support",
     "tier": "S+",
-    "tierdiff": "-",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
@@ -332,7 +332,7 @@
     "element": "physical",
     "specialty": "stun",
     "tier": "S+",
-    "tierdiff": "-",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
@@ -462,7 +462,7 @@
     "element": "ice",
     "specialty": "attack",
     "tier": "S+",
-    "tierdiff": "+",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
@@ -475,7 +475,7 @@
     "element": "ether",
     "specialty": "attack",
     "tier": "S+",
-    "tierdiff": "+",
+    "tierdiff": "",
     "other": "",
     "special-title": ""
 },
