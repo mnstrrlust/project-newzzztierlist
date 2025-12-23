@@ -15,7 +15,7 @@
     --tier-a: rgb(195, 159, 223);
     --tier-b: rgba(90, 120, 200, 1);
     --tier-c: rgba(120, 150, 220, 1);
-    --tier-f: rgba(80, 180, 220, 1);
+    --tier-f: rgb(120, 220, 80);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -102,9 +102,9 @@ h5 {
 .color1 { background: rgb(32, 32, 32); }
 .color2 { background: rgb(36, 36, 36); }
 
-.role-label.dps, .header-roles.dps { color: #ed343e; }
-.role-label.subdps, .header-roles.subdps { color: #bd65e6; }
-.role-label.support, .header-roles.support { color: #7cde97; }
+.role-label.dps, .header-roles.dps { color: #df252e; }
+.role-label.subdps, .header-roles.subdps { color: #4873cf; }
+.role-label.support, .header-roles.support { color: #de7cde; }
 .role-label.stun, .header-roles.stun { color: #db6a00; }
 
 .tier-label {
@@ -184,7 +184,6 @@ h5 {
 .hp-tag { color: #72de97; }
 .aftershock-tag { color: #fffd7f; }
 .expert-tag { color: #ffa938; }
-
 .upward { display: inline-block; transform: rotate(-90deg);} /* upwards arrow symbol for EXPERT tag */
 
 .agent {
@@ -250,12 +249,12 @@ h5 {
 .agent-tags { margin-top: 2px; }
 
 .agent img.s-rank {
-    background: linear-gradient(180deg, rgb(187, 159, 1), rgb(255, 222, 36));
+    background: linear-gradient(180deg, rgb(226, 193, 3), rgb(255, 222, 36));
     border-radius: 8px;
 }
 
 .agent img.a-rank {
-    background: linear-gradient(0deg, rgba(183, 0, 255, 0.5), rgba(183, 0, 255, 0.4));
+    background: linear-gradient(0deg, rgba(183, 0, 255, 0.87), rgba(183, 0, 255, 0.589));
     border-radius: 8px;
 }
 
@@ -267,7 +266,7 @@ h5 {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: 700;
-    background: #eb4b73;
+    background: #8233af;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -275,9 +274,9 @@ h5 {
 }
 
 .namingtoggle:hover {
-    background-color: #ff5b84;
+    background-color: #8233afcc;
 }
 
 .namingtoggle:active {
-    background-color: #f0406c;
+    background-color: #8233afaa;
 }
