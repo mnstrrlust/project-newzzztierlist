@@ -224,7 +224,8 @@ h5 {
 
 .watchlist-icon,
 .positive-diff-icon,
-.negative-diff-icon {
+.negative-diff-icon,
+.new-agent-icon {
     position: absolute;
     top: 4px; /* distance from top */
     width: 35px;
@@ -243,6 +244,11 @@ h5 {
 
 .negative-diff-icon {
     background: #ff5c5c;
+    right: 0px;
+}
+
+.new-agent-icon {
+    background: #ff0000;
     right: 0px;
 }
 

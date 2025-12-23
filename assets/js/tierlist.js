@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         ${agent.tierdiff === "++" ? `<img class="positive-diff-icon" src="assets/other-sprites/up-arrow2.svg" alt="Up+">` : ''}
                         ${agent.tierdiff === "-" ? `<img class="negative-diff-icon" src="assets/other-sprites/down-arrow.svg" alt="Down">` : ''}
                         ${agent.tierdiff === "--" ? `<img class="negative-diff-icon" src="assets/other-sprites/down-arrow2.svg" alt="Down-">` : ''}
+                        ${agent.tierdiff === "new" ? `<img class="new-agent-icon" src="assets/other-sprites/plus.svg" alt="New Agent">` : ''}
                     </div>
                     <div class="agent-tags">${tagHTML}</div>
                 `; // Link to Prydwen temporarily
