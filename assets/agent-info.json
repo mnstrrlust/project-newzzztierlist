@@ -156,7 +156,7 @@
 },
 {
     "name": "Lucia",
-    "tags": "Sheer, Aftershock",
+    "tags": "Sheer, Aftershock, Heal",
     "watchlist": false,
     "role": "support",
     "rank": "S",
@@ -637,7 +637,7 @@
 },
 {
     "name": "Ben",
-    "tags": "",
+    "tags": "Shield",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "A",
