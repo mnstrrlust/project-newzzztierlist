@@ -19,6 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (!container) return;
                 const agentChibi = `assets/agent-chibis/${agent.name}.png`;
 
+                const tierDiffIcons = {
+                "+": { class: "positive-diff-icon", src: "assets/other-sprites/up-arrow.svg", alt: "Up" },
+                "++": { class: "positive-diff-icon", src: "assets/other-sprites/up-arrow2.svg", alt: "Up+" },
+                "-": { class: "negative-diff-icon", src: "assets/other-sprites/down-arrow.svg", alt: "Down" },
+                "--": { class: "negative-diff-icon", src: "assets/other-sprites/down-arrow2.svg", alt: "Down-" },
+                "new": { class: "new-agent-icon", src: "assets/other-sprites/plus.svg", alt: "New Agent" }
+                };
+
+                let iconsHTML = "";
+
+                if (agent.watchlist) {
+                    iconsHTML += `<img class="watchlist-icon" src="assets/other-sprites/watchlist.svg" alt="Watchlist">`;
+                }
+                if (tierDiffIcons[agent.tierdiff]) {
+                    const { class: cls, src, alt } = tierDiffIcons[agent.tierdiff];
+                    iconsHTML += `<img class="${cls}" src="${src}" alt="${alt}">`;
+                }
+
                 const agentDiv = document.createElement("div");
                 agentDiv.className = "agent";
 
@@ -40,12 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <img class="${rankClass} main" src="${agentChibi}" alt="${agent.name}">
                         </a>
                         <div class="overlay-text">${otherInfo}</div>
-                        ${agent.watchlist ? `<img class="watchlist-icon" src="assets/other-sprites/watchlist.svg" alt="Watchlist">` : ''}
-                        ${agent.tierdiff === "+" ? `<img class="positive-diff-icon" src="assets/other-sprites/up-arrow.svg" alt="Up">` : ''}
-                        ${agent.tierdiff === "++" ? `<img class="positive-diff-icon" src="assets/other-sprites/up-arrow2.svg" alt="Up+">` : ''}
-                        ${agent.tierdiff === "-" ? `<img class="negative-diff-icon" src="assets/other-sprites/down-arrow.svg" alt="Down">` : ''}
-                        ${agent.tierdiff === "--" ? `<img class="negative-diff-icon" src="assets/other-sprites/down-arrow2.svg" alt="Down-">` : ''}
-                        ${agent.tierdiff === "new" ? `<img class="new-agent-icon" src="assets/other-sprites/plus.svg" alt="New Agent">` : ''}
+                        ${iconsHTML}
                     </div>
                     <div class="agent-tags">${tagHTML}</div>
                 `; // Link to Prydwen temporarily
