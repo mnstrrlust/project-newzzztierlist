@@ -254,7 +254,7 @@ h5 {
 }
 
 .agent img.a-rank {
-    background: linear-gradient(0deg, rgba(183, 0, 255, 0.87), rgba(183, 0, 255, 0.589));
+    background: linear-gradient(180deg, rgba(183, 0, 255, 0.685), rgba(183, 0, 255, 0.678));
     border-radius: 8px;
 }
 
