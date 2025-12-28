@@ -39,20 +39,20 @@
 },
 {
     "name": "Burnice",
-    "tags": "Anomaly, Burst*",
+    "tags": "Anomaly",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "S",
     "element": "fire",
     "specialty": "anomaly",
     "tier": "SS",
-    "tierdiff": "++",
+    "tierdiff": "+",
     "other": "",
     "special-title": ""
 },
 {
     "name": "Grace",
-    "tags": "Anomaly, Burst*",
+    "tags": "Anomaly",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "S",
@@ -325,7 +325,7 @@
 },
 {
     "name": "Seed",
-    "tags": "Partner<br>(Ye Shunguang)",
+    "tags": "Partner<br>(Shunguang)",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "S",
