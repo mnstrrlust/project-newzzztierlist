@@ -234,13 +234,13 @@
 },
 {
     "name": "Anby-Demara-Soldier-0",
-    "tags": "Aftershock, EXPERT",
+    "tags": "Aftershock",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
     "element": "electric",
     "specialty": "attack",
-    "tier": "SS",
+    "tier": "SS+",
     "tierdiff": "",
     "other": "",
     "special-title": ""
