@@ -20,7 +20,7 @@
     "element": "honed-edge",
     "specialty": "attack",
     "tier": "SS+",
-    "tierdiff": "",
+    "tierdiff": "new",
     "other": "",
     "special-title": "void-hunter"
 },
@@ -33,7 +33,46 @@
     "element": "ice",
     "specialty": "defense",
     "tier": "SS+",
-    "tierdiff": "",
+    "tierdiff": "new",
+    "other": "",
+    "special-title": ""
+},
+{
+    "name": "Burnice",
+    "tags": "Anomaly, Burst*",
+    "watchlist": false,
+    "role": "secondary-dps",
+    "rank": "S",
+    "element": "fire",
+    "specialty": "anomaly",
+    "tier": "SS",
+    "tierdiff": "++",
+    "other": "",
+    "special-title": ""
+},
+{
+    "name": "Grace",
+    "tags": "Anomaly, Burst*",
+    "watchlist": false,
+    "role": "secondary-dps",
+    "rank": "S",
+    "element": "electric",
+    "specialty": "anomaly",
+    "tier": "SS",
+    "tierdiff": "++",
+    "other": "",
+    "special-title": ""
+},
+{
+    "name": "Soldier-11",
+    "tags": "EXPERT",
+    "watchlist": false,
+    "role": "primary-dps",
+    "rank": "S",
+    "element": "fire",
+    "specialty": "attack",
+    "tier": "S+",
+    "tierdiff": "++",
     "other": "",
     "special-title": ""
 },
@@ -279,8 +318,21 @@
     "rank": "S",
     "element": "electric",
     "specialty": "anomaly",
+    "tier": "S+",
+    "tierdiff": "-",
+    "other": "",
+    "special-title": ""
+},
+{
+    "name": "Seed",
+    "tags": "Partner<br>(Ye Shunguang)",
+    "watchlist": false,
+    "role": "secondary-dps",
+    "rank": "S",
+    "element": "electric",
+    "specialty": "attack",
     "tier": "SS",
-    "tierdiff": "",
+    "tierdiff": "new",
     "other": "",
     "special-title": ""
 },
@@ -319,7 +371,7 @@
     "element": "ice",
     "specialty": "support",
     "tier": "S+",
-    "tierdiff": "",
+    "tierdiff": "-",
     "other": "",
     "special-title": ""
 },
@@ -351,7 +403,7 @@
 },
 {
     "name": "Manato",
-    "tags": "Sheer",
+    "tags": "Sheer, Partner<br>(Lucia)",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "A",
@@ -364,7 +416,7 @@
 },
 {
     "name": "Hugo",
-    "tags": "Partner",
+    "tags": "",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -402,21 +454,8 @@
     "special-title": ""
 },
 {
-    "name": "Burnice",
-    "tags": "Anomaly",
-    "watchlist": false,
-    "role": "secondary-dps",
-    "rank": "S",
-    "element": "fire",
-    "specialty": "anomaly",
-    "tier": "S+",
-    "tierdiff": "",
-    "other": "",
-    "special-title": ""
-},
-{
     "name": "Jane-Doe",
-    "tags": "Anomaly, Partner (Alice)",
+    "tags": "Anomaly, Partner<br>(Alice)",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "S",
@@ -429,7 +468,7 @@
 },
 {
     "name": "Piper",
-    "tags": "Anomaly, Partner (Alice)",
+    "tags": "Anomaly, Partner<br>(Alice)",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "A",
@@ -462,7 +501,7 @@
     "element": "ice",
     "specialty": "attack",
     "tier": "S+",
-    "tierdiff": "",
+    "tierdiff": "+",
     "other": "",
     "special-title": ""
 },
@@ -532,19 +571,6 @@
     "special-title": ""
 },
 {
-    "name": "Soldier-11",
-    "tags": "",
-    "watchlist": false,
-    "role": "primary-dps",
-    "rank": "S",
-    "element": "fire",
-    "specialty": "attack",
-    "tier": "A",
-    "tierdiff": "",
-    "other": "",
-    "special-title": ""
-},
-{
     "name": "Corin",
     "tags": "Partner",
     "watchlist": false,
@@ -604,19 +630,6 @@
     "rank": "S",
     "element": "physical",
     "specialty": "attack",
-    "tier": "B",
-    "tierdiff": "",
-    "other": "",
-    "special-title": ""
-},
-{
-    "name": "Grace",
-    "tags": "Anomaly",
-    "watchlist": false,
-    "role": "secondary-dps",
-    "rank": "S",
-    "element": "electric",
-    "specialty": "anomaly",
     "tier": "B",
     "tierdiff": "",
     "other": "",
