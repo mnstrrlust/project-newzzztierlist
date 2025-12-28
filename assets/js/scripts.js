@@ -17,23 +17,49 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let usingAlt = false;
 
-    const button = document.getElementById("tierNamingToggle");
-    button.addEventListener("click", () => {
-        const cells = document.querySelectorAll(".tier-cell");
-        cells.forEach(cell => {
-            const current = cell.textContent.trim();
-            if (!usingAlt && tierNameMapping[current]) {
-                cell.textContent = tierNameMapping[current];
-            } else if (usingAlt && reverseMapping[current]) {
-                cell.textContent = reverseMapping[current];
-            }
-        });
-        usingAlt = !usingAlt;
+    const namingToggleButton = document.getElementById("tierNamingToggle");
+    if (namingToggleButton) {
+        namingToggleButton.addEventListener("click", () => {
+            const cells = document.querySelectorAll(".tier-label");
+            cells.forEach(cell => {
+                const current = cell.textContent.trim();
+                if (!usingAlt && tierNameMapping[current]) {
+                    cell.textContent = tierNameMapping[current];
+                } else if (usingAlt && reverseMapping[current]) {
+                    cell.textContent = reverseMapping[current];
+                }
+            });
+            usingAlt = !usingAlt;
 
-        if (usingAlt) {
-            button.textContent = "Use normal tier naming";
-        } else {
-            button.textContent = "Use Prydwen tier naming";
-        }
+            namingToggleButton.textContent = usingAlt
+                ? "Use regular naming"
+                : "Use T0, T0.5, etc. naming";
+        });
+    }
+
+    const roleLabels = [
+        { selector: ".dps-div", className: "dps", text: "Primary DPS" },
+        { selector: ".subdps-div", className: "subdps", text: "Secondary DPS" },
+        { selector: ".support-div", className: "support", text: "Support" },
+        { selector: ".stun-div", className: "stun", text: "Stun" }
+    ];
+
+    function prependRoleLabel(container, className, text) {
+        if (container.querySelector(`.role-label.${className}`)) return;
+        const label = document.createElement("span");
+        label.classList.add("role-label", className);
+        label.textContent = text;
+        container.prepend(label);
+    }
+
+    roleLabels.forEach(({ selector, className, text }) => {
+        document.querySelectorAll(selector).forEach(div => {
+            prependRoleLabel(div, className, text);
+        });
+    });
+    document.querySelectorAll(".changelog-header").forEach(btn => {
+        btn.addEventListener("click", () =>
+            btn.classList.toggle("active")
+        );
     });
 });
