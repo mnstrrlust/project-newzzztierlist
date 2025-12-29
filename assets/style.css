@@ -294,6 +294,7 @@ h5 {
 
 @media (max-width: 768px) {
     body { padding: 0 1rem 2rem 1rem; }
+    
     .tier.header { display: none; }
     .tier-items { justify-content: center; }
     .tier.t0 { background: linear-gradient(90deg, var(--tier-ssplus)); }
@@ -334,31 +335,18 @@ h5 {
         border-top-right-radius: 8px;
     }
 
-    .agent {
-        max-width: 96px;
-    }
-
-    .agent-tags {
-        font-size: .85rem;
-    }
-
+    .agent-tags { font-size: .85rem; }
+    .agent { max-width: 96px; }
     .agent img.main {
         width: 96px;
         height: 96px;
     }
 
-    .changelog-header {
-        font-size: 1rem;
-    }
+    .changelog-header { font-size: 1rem; }
+    .changelog-body { font-size: .9rem; }
 
-    .changelog-body {
-        font-size: .9rem;
-    }
     .left-icon, .right-icon {
-        position: absolute;
-        top: 4px;
         width: 30px;
         height: 30px;
-        border-radius: 8px;
     }
 }
