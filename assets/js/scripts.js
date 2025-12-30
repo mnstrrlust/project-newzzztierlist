@@ -57,9 +57,17 @@ document.addEventListener("DOMContentLoaded", () => {
             prependRoleLabel(div, className, text);
         });
     });
-    document.querySelectorAll(".changelog-header").forEach(btn => {
-        btn.addEventListener("click", () =>
-            btn.classList.toggle("active")
-        );
+    // Format any <time class="local-date" datetime="YYYY-MM-DD"> to user's locale
+    const localDates = document.querySelectorAll('.local-date[datetime]');
+    localDates.forEach(el => {
+        const iso = el.getAttribute('datetime');
+        const m = /^([0-9]{4})-([0-9]{2})-([0-9]{2})$/.exec(iso || '');
+        if (!m) return;
+        const year = Number(m[1]);
+        const month = Number(m[2]);
+        const day = Number(m[3]);
+        const d = new Date(year, month - 1, day); // local date to avoid TZ shifts
+        const preferredLocale = (navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language) || 'en-GB';
+        el.textContent = d.toLocaleDateString(preferredLocale, { day: '2-digit', month: '2-digit', year: 'numeric' });
     });
 });
