@@ -1,6 +1,6 @@
 [{
     "name": "EXAMPLE AGENT, DONT EDIT",
-    "tags": "Tags, such as Sheer, Anomaly, Aftershock, Quickswap, Buff, Heal, EXPERT, Shield, Partner",
+    "tags": "Tags, such as Rupture, Anomaly, Aftershock, , Buff, Heal, EXPERT, Shield, Partner",
     "watchlist": "can be true or false (no quotes)",
     "role": "primary-dps, secondary-dps, support or stun",
     "rank": "S, A or B, which are A-Rank agents without mindscapes",
@@ -13,7 +13,7 @@
 },
 {
     "name": "Ye-Shunguang",
-    "tags": "Quickswap",
+    "tags": "",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -91,7 +91,7 @@
 },
 {
     "name": "Banyue",
-    "tags": "Sheer, EXPERT",
+    "tags": "Rupture, EXPERT",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -104,7 +104,7 @@
 },
 {
     "name": "Yixuan",
-    "tags": "Sheer, Quickswap",
+    "tags": "Rupture",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -117,7 +117,7 @@
 },
 {
     "name": "Miyabi",
-    "tags": "Anomaly, Quickswap",
+    "tags": "Anomaly",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -130,7 +130,7 @@
 },
 {
     "name": "Alice",
-    "tags": "Anomaly, Quickswap",
+    "tags": "Anomaly",
     "watchlist": true,
     "role": "primary-dps",
     "rank": "S",
@@ -195,7 +195,7 @@
 },
 {
     "name": "Lucia",
-    "tags": "Sheer, Aftershock, Heal",
+    "tags": "Rupture, Aftershock, Heal",
     "watchlist": false,
     "role": "support",
     "rank": "S",
@@ -260,7 +260,7 @@
 },
 {
     "name": "Yidhari",
-    "tags": "Sheer",
+    "tags": "Rupture",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "S",
@@ -325,7 +325,7 @@
 },
 {
     "name": "Seed",
-    "tags": "Partner<br>(Shunguang)",
+    "tags": "Partner (Shunguang)",
     "watchlist": false,
     "role": "secondary-dps",
     "rank": "S",
@@ -338,7 +338,7 @@
 },
 {
     "name": "Nicole",
-    "tags": "Quickswap, EXPERT",
+    "tags": "EXPERT",
     "watchlist": false,
     "role": "support",
     "rank": "A",
@@ -351,7 +351,7 @@
 },
 {
     "name": "Pan-Yinhu",
-    "tags": "Sheer, Heal",
+    "tags": "Rupture, Heal",
     "watchlist": false,
     "role": "support",
     "rank": "A",
@@ -403,7 +403,7 @@
 },
 {
     "name": "Manato",
-    "tags": "Sheer, Partner<br>(Lucia)",
+    "tags": "Rupture, Partner<br>(Lucia)",
     "watchlist": false,
     "role": "primary-dps",
     "rank": "A",
